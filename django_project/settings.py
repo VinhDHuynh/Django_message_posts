@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-v&gl6+5=1mbp&zly)97lzb655*z)%*7w9^ju$l0l7h961rlpp3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#if I ever decide to host it on chirrut, then it will be alloweed to host
+#there
+ALLOWED_HOSTS = ["https://chirrut.jedimasters.net", "localhost", "127.0.0.1"]
 
 
 # Application definition
